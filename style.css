@@ -178,8 +178,17 @@
 
     /* Larger desktop screens: increase banner height and ensure top aligns */
     @media(min-width:1200px){
+      /* On very wide screens show the full banner image without vertical cropping */
       .banner{
-        height:min(40vh,360px);
+        height:auto;
+        max-width:100%;
+        margin-bottom:1rem;
       }
-      .banner img{object-position:top center}
+      .banner img{
+        width:100%;
+        height:auto;
+        display:block;
+        object-fit:contain;
+        object-position:top center;
+      }
     }
