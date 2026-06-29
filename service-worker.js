@@ -5,8 +5,7 @@ const ASSETS = [
   './style.css',
   './terms.js',
   './terms-data.js',
-  './Images/app-icon.jpg',
-  './Images/TSU_JPIA_ACADS.png'
+  './icon.svg'
 ];
 
 self.addEventListener('install', event => {
