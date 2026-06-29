@@ -188,9 +188,9 @@
 
     /* Larger desktop screens: increase banner height and ensure top aligns */
     @media(min-width:1200px){
-      /* On very wide screens keep banner taller so image isn't excessively cropped */
-      .banner{height:min(38vh,420px);background:var(--navy)}
-      .banner img{object-fit:cover;object-position:top center;height:100%;width:100%;display:block}
+      /* On very wide screens show the full banner image using its natural height */
+      .banner{height:auto;overflow:visible;background:var(--navy);margin-bottom:1.25rem}
+      .banner img{width:100%;height:auto;display:block;object-fit:contain;object-position:top center}
     }
 
     /* Ensure term cards sit above banner and have breathing room */
