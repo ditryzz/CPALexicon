@@ -13,10 +13,11 @@
 
     /* BANNER */
 .banner{
-    width:100%;
-    height:clamp(160px,25vw,260px);
-    overflow:hidden;
-    line-height:0;
+  width:100%;
+  height:clamp(160px,25vw,260px);
+  overflow:hidden;
+  line-height:0;
+  background:var(--navy);
 }
 
 .banner img{
@@ -28,6 +29,7 @@
 }
 
 .banner{position:relative;z-index:0;margin-bottom:1rem}
+
 
 .install-btn{
     position:fixed;
@@ -185,6 +187,7 @@
         height:auto;
         max-width:100%;
         margin-bottom:1rem;
+        background:var(--navy);
       }
       .banner img{
         width:100%;
@@ -192,5 +195,6 @@
         display:block;
         object-fit:contain;
         object-position:top center;
+        background:var(--navy);
       }
     }
