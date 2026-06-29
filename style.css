@@ -161,6 +161,13 @@
       .term-name{overflow-wrap:anywhere;word-break:break-word;font-size:14px}
       .term-body{padding-left:.9rem;padding-right:.9rem}
       .term-snippet{display:none}
+
+      /* Make sidebar content breathe in drawer / narrow screens */
+      .drawer .sidebar-card{padding:1rem}
+      .drawer .search-wrap{margin-bottom:0.75rem}
+      .drawer .filter-btns{padding:0 0.5rem}
+      .drawer .filter-btn{padding-left:12px;padding-right:12px}
+      .drawer .fcount{margin-right:8px}
     }
     @media(min-width:701px){
       .mob-bar{display:none}
