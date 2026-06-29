@@ -19,6 +19,9 @@
   line-height:0;
   background:var(--navy);
   margin-bottom:1.25rem;
+  -webkit-transform:translateZ(0);
+  transform:translateZ(0);
+  border-bottom:2px solid var(--navy);
 }
 
 .banner img{
@@ -54,7 +57,7 @@
 .install-btn[hidden]{display:none}
 
     /* PAGE */
-    .page{max-width:1100px;margin:0 auto;padding:1.5rem 1rem 3rem;display:grid;grid-template-columns:minmax(220px,260px) minmax(0,1fr);gap:1.5rem;align-items:start;margin-top:.5rem}
+    .page{max-width:1100px;margin:0 auto;padding:1.5rem 1rem 3rem;display:grid;grid-template-columns:minmax(220px,260px) minmax(0,1fr);gap:1.5rem;align-items:start;margin-top:0}
     .content{min-width:0;align-self:start}
     .content-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:1rem;flex-wrap:wrap}
     .stats-text{font-size:13px;color:var(--ink-muted)}
