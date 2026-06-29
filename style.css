@@ -185,8 +185,8 @@
       .mob-bar{display:none}
       .drawer,.drawer-overlay{display:none!important}
       /* Ensure banner image covers the area and aligns to top center on wider screens */
-      .banner{height:clamp(180px,22vw,300px)}
-      .banner img{object-fit:cover;object-position:top center;height:100%;width:100%;display:block}
+      .banner{height:clamp(180px,22vw,300px);position:relative;overflow:hidden}
+      .banner img{position:absolute;inset:0;width:100%;height:100%;display:block;object-fit:cover;object-position:top center}
     }
 
     /* Larger desktop screens: increase banner height and ensure top aligns */
